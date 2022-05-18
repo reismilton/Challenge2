@@ -1,0 +1,65 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background-color: #bcc1cf ;
+
+}
+.main {
+
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+
+}
+.input-texto {
+    margin-top: 90px;  
+}
+.mensagens {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("./Imagens/menina.png");
+    background-repeat: no-repeat;
+
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    background-color: #6779ac;
+}
+
+
+.desencriptar {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-left : 30px;
+}
+
+.desencriptar:hover {
+    background-color: #6779ac;
+}
+
+
+
+
+.informacao {
+    font-size: 15px;
+}
